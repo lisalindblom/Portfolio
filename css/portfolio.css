@@ -14,10 +14,21 @@ header {
 
 .logga {
   display: flex;
-  width: 50px;
-  height: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: darkcyan;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
-  justify-self: left;
+}
+
+.logga > div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: 1.7rem;
+  transform: rotate(330deg);
 }
 
 a {
