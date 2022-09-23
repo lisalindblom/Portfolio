@@ -9,11 +9,13 @@ header {
   position: fixed;
   right: 2vw;
   left: 2vw;
+  top: 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   height: 10vh;
+  background-color: rgb(56, 145, 56);
 }
 
 .logga {
@@ -29,7 +31,6 @@ header {
   animation-name: logo;
   animation-duration: 30s;
   animation-iteration-count: infinite;
-  animation-direction: ;
 }
 
 .logga > div {
@@ -54,11 +55,11 @@ header {
   }
 
   75% {
-    background-color: rgb(139, 16, 0);
+    background-color: rgb(0, 88, 139);
   }
 
   100% {
-    background-color: rgb(167, 142, 19);
+    background-color: darkcyan;
   }
 }
 
@@ -109,6 +110,10 @@ main {
   align-items: center;
   margin-top: 3%;
   height: 100vh;
+}
+
+h2 {
+  margin-top: 10vh;
 }
 p {
   font-size: 0.9em;
