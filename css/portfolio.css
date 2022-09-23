@@ -1,7 +1,4 @@
 body {
-  /*background-image: url(https://images.pexels.com/photos/6985265/pexels-photo-6985265.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;*/
   background-color: rgb(56, 145, 56);
 }
 
@@ -101,6 +98,7 @@ main {
   flex-direction: column;
   align-items: center;
   margin-top: 3%;
+  width: 60vw;
 }
 
 .projekt,
@@ -143,10 +141,9 @@ i {
     margin-left: 4%;
   }
 
-  /*footer {
-    display: flex;
-    flex-direction: column;
+  .startsida {
+    display: block;
     justify-content: left;
-    margin-right: 40px;
-  }*/
+    margin-top: 3%;
+  }
 }
