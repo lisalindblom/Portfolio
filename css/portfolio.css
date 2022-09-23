@@ -128,6 +128,7 @@ footer {
   display: flex;
   justify-content: center;
   height: 8vh;
+  margin-bottom: 4vh;
 }
 
 i {
