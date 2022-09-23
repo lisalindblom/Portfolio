@@ -21,6 +21,11 @@ header {
   height: 60px;
   width: 60px;
   border-radius: 50%;
+
+  animation-name: logo;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: ;
 }
 
 .logga > div {
@@ -28,7 +33,29 @@ header {
   font-style: oblique;
   font-weight: bolder;
   font-size: 1.7rem;
-  transform: rotate(330deg);
+  transform: rotate(315deg);
+}
+
+@keyframes logo {
+  0% {
+    background-color: darkcyan;
+  }
+
+  25% {
+    background-color: rgb(0, 88, 139);
+  }
+
+  50% {
+    background-color: rgb(139, 0, 95);
+  }
+
+  75% {
+    background-color: rgb(139, 16, 0);
+  }
+
+  100% {
+    background-color: rgb(167, 142, 19);
+  }
 }
 
 a {
@@ -59,7 +86,7 @@ a:hover {
   border-radius: 50%;
   background-color: black;
 }
-section {
+.startsida {
   display: flex;
   flex-direction: column;
   align-items: center;
